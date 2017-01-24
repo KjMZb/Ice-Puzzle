@@ -1,0 +1,32 @@
+Authors: Amit Maller and Kyle McGlynn
+
+Test 1:
+Test 1 is taken from the first page of the problem solving session.
+Originally, the intent of this test was to show that the known path from
+(0,2) to the exit was found by the algorithm( see front of first page of
+problem solving). However, as can be seen by examining the puzzle,
+every point on the puzzle has a path to the exit. The intent of the test
+now is to see whether the algorithm finds the shortest path from every
+point to the exit.
+
+Test 2:
+Test 2 sees whether the algorithm recognizes when there is no path to the
+exit from a given point. As can be seen in the text file of this test, one
+area of the frozen pond is encircled by rocks. Any point within this circle
+should have no path to the exit.
+
+Test 3:
+Test 3 is intended to test the algorithm on a far more complex and varied
+frozen puzzle than either test 1 or test 2's puzzles. If we look at the text
+file, we can see that, unlike test 2, it is not clear whether a given point
+will or will not reach the end. Furthermore, test 3 is larger and contains
+far more rocks than test 1, meaning that it takes longer to verify whether
+a path reaches the end or not.
+
+Test 4:
+Test 4 sees whether the algorithm realizes that the given puzzle has not
+starting spot. That is, there isn't even a pond, just a lump of rocks.
+
+Test 5:
+Test 5 tests just the opposite of test 4; what happens when there are no rocks?
+Does the algorithm find that only a few spots have a path and that the rest don't?
